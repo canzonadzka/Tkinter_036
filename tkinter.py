@@ -36,3 +36,4 @@ def hasil_prediksi():
 x = (root.winfo_screenwidth() - lebar) // 2
 y = (root.winfo_screenheight() - tinggi) // 2
 root.geometry(f"{lebar}x{tinggi}+{x}+{y}")
+entries[0].focus()
