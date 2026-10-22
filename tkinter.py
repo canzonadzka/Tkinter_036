@@ -10,3 +10,5 @@ label_judul = tk.Label(root, text="Aplikasi Prediksi Prodi Pilihan",
 label_judul.pack(pady=(20, 10))
 MAPEL = ["Matematika", "Bahasa Indonesia", "Bahasa Inggris", "Fisika", "Kimia",
          "Biologi", "Ekonomi", "Sejarah", "Geografi", "Sosiologi"]
+frame_input = tk.Frame(root, bg="#f0f4f8")
+frame_input.pack(pady=10)
