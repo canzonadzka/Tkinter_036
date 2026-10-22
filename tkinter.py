@@ -29,3 +29,6 @@ label_hasil = tk.Label(root, text="", font=("Arial", 14, "bold"),
 label_hasil.pack(pady=10)
 def hasil_prediksi():
     label_hasil.config(text="Prodi Prediksi: Teknologi Informasi")
+    button = tk.Button(root, text="Hasil Prediksi", command=hasil_prediksi,
+                   font=("Arial", 11, "bold"), bg="#2563eb", fg="white",
+                   padx=20, pady=5)
