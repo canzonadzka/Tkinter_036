@@ -21,3 +21,6 @@ for i, mapel in enumerate(MAPEL):
     entry = tk.Entry(frame_input, width=10, justify="center")
     entry.grid(row=baris, column=kolom + 1, padx=(0, 15), pady=5)
     entries.append(entry)
+    button = tk.Button(root, text="Hasil Prediksi", font=("Arial", 11, "bold"),
+                   bg="#2563eb", fg="white", padx=20, pady=5)
+button.pack(pady=15)
