@@ -24,3 +24,6 @@ for i, mapel in enumerate(MAPEL):
     button = tk.Button(root, text="Hasil Prediksi", font=("Arial", 11, "bold"),
                    bg="#2563eb", fg="white", padx=20, pady=5)
 button.pack(pady=15)
+label_hasil = tk.Label(root, text="", font=("Arial", 14, "bold"),
+                       bg="#f0f4f8", fg="#15803d")
+label_hasil.pack(pady=10)
