@@ -32,3 +32,7 @@ def hasil_prediksi():
     button = tk.Button(root, text="Hasil Prediksi", command=hasil_prediksi,
                    font=("Arial", 11, "bold"), bg="#2563eb", fg="white",
                    padx=20, pady=5)
+                lebar, tinggi = 520, 420
+x = (root.winfo_screenwidth() - lebar) // 2
+y = (root.winfo_screenheight() - tinggi) // 2
+root.geometry(f"{lebar}x{tinggi}+{x}+{y}")
